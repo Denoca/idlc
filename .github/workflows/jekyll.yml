@@ -10,6 +10,8 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+    paths:
+      - 'website/**' # This line specifies the folder to watch for changes
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
