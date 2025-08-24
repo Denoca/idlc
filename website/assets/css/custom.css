@@ -39,7 +39,7 @@ header {
   text-align: center;
   padding: 1rem;
   margin-bottom: 1rem;
-  position: relative;
+  position: relative; /* For absolute positioning of star button */
   overflow: hidden;
 }
 
@@ -71,6 +71,42 @@ header p {
   font-size: 1.1rem;
   opacity: 0.9;
   animation: fadeIn 1s ease-in 0.2s forwards;
+}
+
+/* GitHub Star Button */
+.github-star-container {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+}
+
+.github-star-button {
+  display: inline-block;
+  padding: 0.4rem 0.8rem; /* Smaller padding for compactness */
+  background: var(--gradient-bg);
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem; /* Smaller font for top-right fit */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.github-star-button:hover,
+.github-star-button:focus {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.github-star-button .gh-btn {
+  background: transparent !important;
+  border: none !important;
+}
+
+.github-star-button .gh-count {
+  background: transparent !important;
+  color: #fff !important;
 }
 
 /* Navigation with logo */
@@ -419,6 +455,16 @@ footer a {
 
   main {
     margin: 1rem;
+  }
+
+  .github-star-container {
+    position: static; /* Stack below header content on mobile */
+    margin: 0.5rem auto;
+  }
+
+  .github-star-button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
   }
 }
 

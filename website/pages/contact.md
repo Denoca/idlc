@@ -5,6 +5,6 @@ layout: page
 
 # Contact Us
 
-For inquiries, email: idlc@example.com
+For inquiries, email: idlc@idlc.io
 
-Or open an issue on [GitHub](https://github.com/your-repo).
+Or open an issue on [GitHub](https://github.com/Denoca/idlc)
