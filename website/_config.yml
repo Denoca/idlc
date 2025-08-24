@@ -6,11 +6,12 @@ theme: minima
 plugins:
   - jekyll-seo-tag  # For SEO meta tags
 
+
 # Minima theme settings
 minima:
   skin: auto  # Responsive, light/dark mode
   social_links:
-    github: denoca  # Replace
+    github: denoca/idlc  # Replace
 
 # Defaults for pages
 defaults:
