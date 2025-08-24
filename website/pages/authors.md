@@ -10,7 +10,7 @@ layout: page
 Bio: Creator of IDLC, expert in IaC.
 [GitHub](https://github.com/denoca)
 
-## Author 2
-![Henrique Petenucci](../assets/images/author-placeholder.jpg){:class="author-photo"}
-Bio: Contributor to phases design.
+## Henrique Petenucci
+![DevOps Manager](../assets/images/author-placeholder.jpg){:class="author-photo"}
+Bio: Creator of IDLC, expert in IaC.
 [GitHub](https://github.com/author2)
